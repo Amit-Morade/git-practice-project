@@ -1,0 +1,26 @@
+body {
+    max-width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-container {
+    flex-grow: 1;
+    min-width: 100%;
+    border: 1px solid #888888;
+    background-color: azure;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-body{
+    flex-grow: 100;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+}
