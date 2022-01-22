@@ -18,9 +18,10 @@ body {
 
 .page-body{
     flex-grow: 100;
+    border-bottom: 1px solid #888888;
 }
 
 footer{
-    height: 50px;
     text-align: center;
+    padding: 10px;
 }
